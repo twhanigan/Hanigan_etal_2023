@@ -35,7 +35,23 @@ grouped = Total.groupby('Group_Index')
 def func(x, a, b, c):
     return a * np.exp(-b * x) + c
 
+#Defin Plate params
+EMPTY = 0
+BLANK = 1
+CALIBRANT = 2
+Num_Cpd = 3
+Num_Replicate = 3
+Cpd_list = [range(1,Num_Cpd)]
+SAMPLES = ['SAMPLE'+str(n) for n in range(1,Num_Samples)]
+tuple_samples=dict(zip(SAMPLES,Cpd_list))
+
+
 #Make Wells
+params = [{'compound':'A', 'b':1, 'c':0, 'd':100, 'e':0.4,'startDose':10, 'nDose':8, 'dilution':3},
+          {'compound':'B', 'b':0.7, 'c':0, 'd':86, 'e':1.3,'startDose':30, 'nDose':8, 'dilution':3},
+          {'compound':'C', 'b':2, 'c':24, 'd':152, 'e':0.02,'startDose':3, 'nDose':8, 'dilution':3}]
+paramsCompound = [item['compound'] for item in params]
+
 wells = ['%s%02d' % (r, c) for r in 'ABCDEF' for c in range(1, 13)]
 
 #Get plate Layout for Compounds
