@@ -1,0 +1,4 @@
+file:///H:/Confocal/880/100521/Exported_TIFFs/OXA1L_4S_Zstack_100x_Line/OXA1L_4S_Zstack_100x_Line_z01c1.tif
+file:///H:/Confocal/880/100521/Exported_TIFFs/OXA1L_4S_Zstack_100x_Line/OXA1L_4S_Zstack_100x_Line_z01c2.tif
+file:///H:/Confocal/880/100521/Exported_TIFFs/OXA1L_4S_Zstack_100x_Line/OXA1L_4S_Zstack_100x_Line_z02c1.tif
+file:///H:/Confocal/880/100521/Exported_TIFFs/OXA1L_4S_Zstack_100x_Line/OXA1L_4S_Zstack_100x_Line_z02c2.tif
