@@ -1,0 +1,4 @@
+Sample Names	Total Mutations	Cosine Similarity	L1 Norm	L1_Norm_%	L2 Norm	L2_Norm_%	KL Divergence	Correlation
+B1_100RPMI_P1_C1	10260	1.0	24.847	0.242%	3.908	0.17%	1e-05	1.0
+B2_150URI_P5_C9	10127	1.0	25.696	0.254%	4.013	0.171%	1e-05	1.0
+B2_150URI_P6_C1	10390	1.0	26.546	0.255%	3.962	0.164%	1e-05	1.0

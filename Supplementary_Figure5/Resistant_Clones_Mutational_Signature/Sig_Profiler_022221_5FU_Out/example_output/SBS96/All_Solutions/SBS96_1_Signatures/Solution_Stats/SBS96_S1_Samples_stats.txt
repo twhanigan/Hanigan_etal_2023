@@ -1,0 +1,2 @@
+Sample Names	Total Mutations	Cosine Similarity	L1 Norm	L1_Norm_%	L2 Norm	L2_Norm_%	KL Divergence	Correlation
+H460_5FU	68610	1.0	77.388	0.113%	9.959	0.125%	0.0	1.0
