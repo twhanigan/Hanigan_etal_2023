@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
-import math 
-import numpy as np
-import pandas as pd
+import lmfit
 import math 
 from pandas import ExcelWriter
 from pandas import ExcelFile
@@ -11,17 +9,14 @@ from scipy import stats
 from scipy.stats import pearsonr
 import warnings
 from scipy.stats import ttest_ind
-from more_itertools import unique_everseen
 import numbers
 import seaborn as sns
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.pyplot as pyplot
-import matplotlib.animation as anim
 from scipy.optimize import curve_fit
 from lmfit.models import LinearModel, StepModel
 from lmfit import Model
-import lmfit
 from matplotlib import style
 from matplotlib.colors import ListedColormap
 plt.rcParams['font.family']='Arial'
